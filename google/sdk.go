@@ -17,8 +17,8 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/internal"
+	"github.com/scalingdata/go-x-oauth2"
+	"github.com/scalingdata/go-x-oauth2/internal"
 )
 
 type sdkCredentials struct {

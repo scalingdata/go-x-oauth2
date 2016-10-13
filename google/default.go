@@ -16,8 +16,8 @@ import (
 
 	"cloud.google.com/go/compute/metadata"
 	"golang.org/x/net/context"
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/jwt"
+	"github.com/scalingdata/go-x-oauth2"
+	"github.com/scalingdata/go-x-oauth2/jwt"
 )
 
 // DefaultClient returns an HTTP Client that uses the

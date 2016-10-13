@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"golang.org/x/oauth2"
+	"github.com/scalingdata/go-x-oauth2"
 )
 
 // Set at init time by appenginevm_hook.go. If true, we are on App Engine Managed VMs.
