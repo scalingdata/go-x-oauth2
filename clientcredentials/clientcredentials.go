@@ -18,7 +18,7 @@ import (
 	"net/url"
 	"strings"
 
-	"golang.org/x/net/context"
+	"github.com/scalingdata/go-x-net/context"
 	"github.com/scalingdata/go-x-oauth2"
 	"github.com/scalingdata/go-x-oauth2/internal"
 )

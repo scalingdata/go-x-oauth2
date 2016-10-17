@@ -20,8 +20,8 @@ See godoc for further documentation and examples.
 ## App Engine
 
 In change 96e89be (March 2015) we removed the `oauth2.Context2` type in favor
-of the [`context.Context`](https://golang.org/x/net/context#Context) type from
-the `golang.org/x/net/context` package
+of the [`context.Context`](https://github.com/scalingdata/go-x-net/context#Context) type from
+the `github.com/scalingdata/go-x-net/context` package
 
 This means its no longer possible to use the "Classic App Engine"
 `appengine.Context` type with the `oauth2` package. (You're using
@@ -40,7 +40,7 @@ you may use both sets of packages in parallel, using only the new packages
 with the `oauth2` package.
 
 	import (
-		"golang.org/x/net/context"
+		"github.com/scalingdata/go-x-net/context"
 		"github.com/scalingdata/go-x-oauth2"
 		"github.com/scalingdata/go-x-oauth2/google"
 		newappengine "google.golang.org/appengine"
